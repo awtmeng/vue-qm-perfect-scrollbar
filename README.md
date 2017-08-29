@@ -18,6 +18,9 @@ Vue.use(VuePs);
 
 ```
 
+### github
+https://github.com/awtmeng/vue-qm-perfect-scrollbar
+
 ### Usage
 The plugin is available through ```this.$ps``` in components or ```Vue.Ps```
 
