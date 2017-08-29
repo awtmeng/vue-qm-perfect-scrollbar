@@ -5,14 +5,14 @@ A Vue.js plugin for perfect-scrollbar tested up to ```Vue v2.0.5```
 Install through npm
 
 ``` bash
-npm install vue-perfect-scrollbar --save
+npm install vue-qm-perfect-scrollbar --save
 
 ```
 
 ``` javascript
 // Require dependencies
 var Vue = require('vue');
-var VuePs = require('vue-perfect-scrollbar');
+var VuePs = require('vue-qm-perfect-scrollbar');
 // Tell Vue to use the plugin
 Vue.use(VuePs);
 
@@ -23,8 +23,9 @@ The plugin is available through ```this.$ps``` in components or ```Vue.Ps```
 
 ###### Example
 ``` javascript
-// From some method in one of your Vue components
+// To initialise the plugin
 
+let container = this.$refs.test[0]
 this.$ps.initialize(container, {
   wheelSpeed: 2,
   wheelPropagation: true,
