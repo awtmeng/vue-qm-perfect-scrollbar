@@ -1,0 +1,28 @@
+{
+  "name": "vue-perfect-scrollbar",
+  "version": "0.0.1",
+  "description": "A Vue.js plugin for scrollbar",
+  "author": "qianmeng <352612987@qq.com>",
+  "private": false,
+  "main": "src/vue-perfect-scrollbar.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "perfect-scrollbar": "^0.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jasmine": "^2.5.2",
+    "laravel-elixir": "^6.0.0-13",
+    "laravel-elixir-vue": "^0.1.8",
+    "laravel-elixir-webpack-official": "^1.0.9",
+    "testem": "~1.8",
+    "vue": "^2.0.5"
+  }
+}
