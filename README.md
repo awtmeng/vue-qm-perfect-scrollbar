@@ -25,6 +25,12 @@ https://github.com/awtmeng/vue-qm-perfect-scrollbar
 The plugin is available through ```this.$ps``` in components or ```Vue.Ps```
 
 ###### Example
+
+``` css
+  require('perfect-scrollbar/dist/css/perfect-scrollbar.min.css')
+
+```
+
 ``` javascript
 // To initialise the plugin
 
