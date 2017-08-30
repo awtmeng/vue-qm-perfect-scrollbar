@@ -1,4 +1,4 @@
-A Vue.js plugin for perfect-scrollbar tested up to ```Vue v2.0.5```
+A Vue.js plugin for perfect-scrollbar
 
 ## Installation
 

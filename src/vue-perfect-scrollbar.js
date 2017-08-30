@@ -5,7 +5,7 @@
 
         install: function (Vue) {
             Vue.prototype.$ps = this;
-            Vue.ps = this;
+            Vue.Ps = this;
         },
         initialize: function (container, options) {
             return Ps.initialize(container, options || {})
